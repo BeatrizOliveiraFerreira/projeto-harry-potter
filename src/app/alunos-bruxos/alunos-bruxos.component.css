@@ -1,0 +1,12 @@
+.example-card {
+    margin: auto;
+    max-width: 350px;
+}
+  
+.example-header-image {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/815v2OuIHXL._AC_SY445_.jpg');
+    background-size: cover;
+}
+
+
+  

@@ -1,0 +1,70 @@
+<!--Menu Inicial-->
+<div class="menu">
+    <button mat-button [matMenuTriggerFor]="aboveMenu">{{ casa1 }}</button>
+    <mat-menu #aboveMenu="matMenu" yPosition="above">
+     <app-alunos-bruxos><button mat-menu-item>Características</button></app-alunos-bruxos>
+    </mat-menu>
+
+
+    <button mat-button [matMenuTriggerFor]="belowMenu">{{ casa2 }}</button>
+    <mat-menu #belowMenu="matMenu" yPosition="below">
+      <app-grifinoria><button mat-menu-item>Características</button></app-grifinoria>
+    </mat-menu>
+
+    
+    
+    <button mat-button [matMenuTriggerFor]="beforeMenu">{{ casa3 }}</button>
+    <mat-menu #beforeMenu="matMenu" xPosition="before">
+      <app-lufalufa><button mat-menu-item>Características</button></app-lufalufa>  
+    </mat-menu>
+    
+    
+    <button mat-button [matMenuTriggerFor]="afterMenu">{{ casa4 }}</button>
+    <mat-menu #afterMenu="matMenu" xPosition="after">
+      <app-sonserina><button mat-menu-item>Características</button></app-sonserina>
+    </mat-menu>
+
+    <button><a href="https://www.wizardingworld.com/" target="_blank"><button class="botao"><mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon></button></a></button>
+
+     
+   
+    
+
+    
+    </div>
+    
+    
+    <!--Foto de Harry Potter e seus comentários-->
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Universo Harry Potter</mat-card-title>
+        <mat-card-subtitle>Hogwarts</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="./assets/imagens/harry-potter-com-uma-coruja.png" alt="Harry">
+      <mat-card-content>
+        <h3>
+          No mundo fantástico de Harry Potter, existem 4 casas em Hogwarts, cada uma com suas características que fazem delas especiais e serem o que são, qual delas você mais se identifica?
+        </h3>
+      </mat-card-content>
+    </mat-card>
+
+
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label>Deixe um comentário</mat-label>
+        <textarea class="textarea"   matInput placeholder="Ex. It makes me feel..."></textarea>
+      </mat-form-field>
+    </form>
+    
+
+<!--Segunda Página-->
+
+
+
+
+        
+    
+
+    
+

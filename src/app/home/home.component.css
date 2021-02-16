@@ -1,0 +1,35 @@
+.menu {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: rgb(255, 255, 255);
+}
+.example-card {
+    margin-left: 33%;
+    max-width: 400px;
+  }
+  
+.example-header-image {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/I/815v2OuIHXL._AC_SY445_.jpg');
+    background-size: cover;
+}
+
+.paginas {
+    display: inline;
+}
+
+.example-form {
+    margin-top: 2%;
+    margin-left: 33%;
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+  
+.example-full-width {
+    width: 100%;
+}
+
+.botao {
+    border: none;
+    padding-bottom: 10px;
+}
